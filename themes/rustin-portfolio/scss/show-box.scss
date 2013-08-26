@@ -1,0 +1,46 @@
+.show-box {
+	width: 100%;
+	height: 132px;
+	background: #2a2a2a;
+	position: relative;
+}
+
+.design-circle {
+	background: $mainRed;
+	float: left;
+	margin: 16px;
+}
+
+.dev-circle {
+	background: $mainGreen;
+	float: right;
+	margin: 16px;
+}
+
+.design-circle, .dev-circle {
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 999px;
+	-moz-border-radius: 999px;
+	border-radius: 999px;
+	text-transform: uppercase;
+	position: relative;
+	margin-top: 35px;
+}
+
+.design-circle p, .dev-circle p {
+	height: 100px;
+	line-height: 100px;
+	font-size: 0.75em;
+	font-weight: bold;
+	color: #FFF;	
+}
+
+.ninja-box {
+	width: 100%;
+	height: 187px;	
+	background: url("images/rustin-ninja.png") no-repeat 115px;
+	position: relative;
+	// left: 115px;
+	top: -20px;
+}
