@@ -31,4 +31,7 @@ function start_scripts() {
 
 }
 
+add_theme_support( 'post-thumbnails' );
+add_image_size('mobile-development-thumbnail', 286, 166, true);
+
 ?>

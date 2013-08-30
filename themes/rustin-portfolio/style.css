@@ -25,17 +25,23 @@ Version: 1.0
 body {
   font-size: 16px;
   width: 320px;
-  height: 480px;
   background: #5d5d5d;
   line-height: 1.5em;
-  font-family: aovel; }
+  border: 2px white solid;
+  font-family: aovel;
+  color: #8a8a8a; }
 
-p {
-  font-size: 1em;
-  line-height: 1.5em;
-  margin: 0 5px 16px 5px;
-  color: #8a8a8a;
-  text-align: center; }
+h1 {
+  font-size: 2.25em;
+  line-height: 1.5em; }
+
+h2 {
+  font-size: 1.375em;
+  line-height: 0.83em; }
+
+strong {
+  font-weight: bold;
+  color: #FFFFFF; }
 
 /**** MASTHEAD *****/
 .masthead {
@@ -48,8 +54,7 @@ p {
   text-indent: 0;
   text-align: center;
   display: block;
-  margin-top: 32px;
-  margin-bottom: 16px;
+  margin: 16px 0;
   line-height: 1.33em; }
 
 .rustin-header {
@@ -57,11 +62,17 @@ p {
   padding: 0;
   margin: 0; }
 
-.show-box {
+.show-box-home {
   width: 100%;
   height: 132px;
   background: #2a2a2a;
   position: relative; }
+
+.show-box {
+  width: 100%;
+  background: #2a2a2a;
+  position: relative;
+  z-index: 1; }
 
 .design-circle {
   background: #bd2026;
@@ -88,7 +99,9 @@ p {
   line-height: 100px;
   font-size: 0.75em;
   font-weight: bold;
-  color: #FFF; }
+  color: #FFF;
+  margin: 0;
+  text-align: center; }
 
 .ninja-box {
   width: 100%;
@@ -97,10 +110,51 @@ p {
   position: relative;
   top: -20px; }
 
+.port-type {
+  font-family: spaceman;
+  position: relative;
+  z-index: 20;
+  color: #202020; }
+
+.port-type h2 {
+  text-align: center;
+  margin: 0 0 -10px 0;
+  padding: 0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #5d5d5d;
+  font-size: 2em; }
+
+.mobile-design-thumb {
+  margin: 0 auto;
+  padding: 12px 0;
+  display: relative;
+  width: 137px; }
+
+.opening-text {
+  margin: 0 5px 16px 5px;
+  color: #8a8a8a;
+  text-align: center; }
+
+.dev-box {
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 286px; }
+
+.dev-subheader {
+  font-family: spaceman;
+  color: #bd2026;
+  font-size: 0.75em; }
+
+.dev-port-type {
+  font-size: 0.75em; }
+
+.dev-content {
+  padding-bottom: 35px; }
+
 .contact-button {
   width: 120px;
   height: 30px;
-  margin: 60px auto 0 auto;
+  margin: 60px auto 30px auto;
   background: #bd2026;
   text-transform: uppercase;
   position: relative; }

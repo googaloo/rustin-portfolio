@@ -4,13 +4,13 @@ get_header();
 
 ?>
 
-<p>Thanks for visiting my portfolio!</p>
-<p>I specialize in both design and development.</p>
-<p>That means after much ninja-esque training, the left and right sides of my brain are finally friends.</p>
+<p class="opening-text">Thanks for visiting my portfolio!</p>
+<p class="opening-text">I specialize in both design and development.</p>
+<p class="opening-text">That means after much ninja-esque training, the left and right sides of my brain are finally friends.</p>
 
 
 
-<div class="show-box">
+<div class="show-box-home">
 
 	<div class="ninja-box">
 
