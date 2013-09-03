@@ -3,10 +3,9 @@
 
 body {
   font-size: 16px;
-  width: 320px;
+  width: 100%;
   background: #5d5d5d; 
   line-height: 1.5em;
-  border: 2px white solid;
   font-family: aovel;
   color: $lightGray;
 }
@@ -32,4 +31,8 @@ h3 {
 strong {
   font-weight: bold;
   color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
 }

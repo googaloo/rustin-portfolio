@@ -29,7 +29,7 @@ get_header();
 
 			<div class="mobile-design-thumb">
 
-				<a href="">
+				<a href="<?php the_permalink(); ?>">
 
 					<?php the_post_thumbnail(); ?>
 

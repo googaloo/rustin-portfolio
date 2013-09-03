@@ -1,0 +1,18 @@
+.contact-box {
+	padding: 15px 0;
+	margin: 0 auto;
+	width: 320px;
+}
+
+.contact-box input, .contact-box textarea {
+	background: #c0c0c0;
+	border: none;
+}
+
+.contact-box input[type="submit"] {
+	border: none;
+	background: $mainRed;
+	padding: 10px 20px;
+	color: #FFF;
+	font-family: spaceman;
+}

@@ -1,7 +1,7 @@
 
 		<div class="contact-button">
 
-			<h4>Contact</h4>
+			<a href="<?php bloginfo('url'); ?>/contact"><h4>Contact</h4></a>
 
 		</div><!-- end .contact-button -->
 
