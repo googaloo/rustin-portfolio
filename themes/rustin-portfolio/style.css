@@ -89,7 +89,8 @@ a {
   width: 100%;
   background: #2a2a2a;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  padding-top: 20px; }
 
 .design-circle {
   background: #bd2026;
@@ -141,11 +142,16 @@ a {
   -webkit-text-stroke-color: #5d5d5d;
   font-size: 2em; }
 
-.mobile-design-thumb {
+.design-thumb {
   margin: 0 auto;
   padding: 12px 0;
   display: relative;
-  width: 137px; }
+  width: 137px;
+  height: 152px; }
+
+.design-thumb img {
+  width: 137px;
+  height: 152px; }
 
 .opening-text {
   margin: 0 5px 16px 5px;
@@ -175,6 +181,24 @@ a {
   font-family: spaceman;
   font-size: 0.6em;
   text-indent: 20px; }
+
+.el-comfort-box {
+  width: 100%; }
+
+.comfort-list {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  padding: 0; }
+
+.comfort-list li {
+  margin-top: 5px;
+  width: 100%; }
+
+.comfort-list li:nth-child(odd) {
+  background: #212121;
+  padding: 5px 0;
+  width: 100%; }
 
 .contact-button {
   width: 120px;
@@ -208,3 +232,28 @@ a {
   padding: 10px 20px;
   color: #FFF;
   font-family: spaceman; }
+
+/**** MEDIA 600-1024 ****/
+@media screen and (min-width: 780px) and (max-width: 1023px) {
+  /** global **/
+  body {
+    font-size: 20px; }
+
+  /** masthead **/
+  /** show-box **/
+  .design-thumb {
+    float: left;
+    width: 50%;
+    height: auto; }
+
+  .design-thumb:last-child {
+    margin: 0 auto; }
+
+  .design-thumb img {
+    width: 193px;
+    height: 210px;
+    margin: 0 35%; }
+
+  /** footer **/
+  .contact-button {
+    clear: both; } }

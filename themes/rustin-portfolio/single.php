@@ -4,7 +4,7 @@ get_header();
 
 ?>
 
-<a href="<?php bloginfo('url'); ?>/designs"><div class="back-btn">&larr; Back</div><!-- end .back-btn --></a>
+<a href="<?php bloginfo('url'); ?>/design"><div class="back-btn">&larr; Back</div><!-- end .back-btn --></a>
 
 <div class="show-box-home">
 

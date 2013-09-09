@@ -20,14 +20,32 @@ get_header();
 
 <div class="show-box">
 
+	<div class="el-comfort-box">
+
+		<ul class="comfort-list">
+
+			<li>Photoshop</li>
+			<li>Illustrator</li>
+			<li>After Effects / Flash</li>
+			<li>Logo Design</li>
+			<li>Web Design</li>
+			<li>Motion Graphics</li>
+			<li>Audio w/ Recording Studio</li>
+			<li>Illustration</li>
+			<li>Email Templates</li>
+
+		</ul>
+
+	</div><!-- end .el-comfort-box -->
+
 	<div class="design-box">
 
-	<?php $design_query = new WP_Query( array( 'post_type' => 'designs' ) );
+	<?php $design_query = new WP_Query( array( 'post_type' => 'designs', 'orderby' => 'menu_order', 'order' => 'ASC' ) );
 
 	if($design_query->have_posts() ) :
 		while ($design_query->have_posts() ) : $design_query->the_post(); ?>
 
-			<div class="mobile-design-thumb">
+			<div class="design-thumb">
 
 				<a href="<?php the_permalink(); ?>">
 

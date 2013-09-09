@@ -10,6 +10,7 @@
 	background: #2a2a2a;
 	position: relative;
 	z-index: 1;
+	padding-top: 20px;
 }
 
 .design-circle {
@@ -70,11 +71,17 @@
 	font-size: 2em;
 }
 
-.mobile-design-thumb {
+.design-thumb {
 	margin: 0 auto;
 	padding: 12px 0;
 	display: relative;
 	width: 137px;
+	height: 152px;
+}
+
+.design-thumb img {
+	width: 137px;
+	height: 152px;
 }
 
 .opening-text {
@@ -114,4 +121,26 @@
 	font-family: spaceman;
 	font-size: 0.6em;
 	text-indent: 20px;
+}
+
+.el-comfort-box {
+	width: 100%;
+}
+
+.comfort-list {
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+}
+
+.comfort-list li {
+	margin-top: 5px;
+	width: 100%;
+}
+
+.comfort-list li:nth-child(odd) {
+	background: $darkerDarkGray;
+	padding: 5px 0;
+	width: 100%;
 }

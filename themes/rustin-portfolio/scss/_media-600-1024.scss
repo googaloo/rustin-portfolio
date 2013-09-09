@@ -1,0 +1,43 @@
+/**** MEDIA 600-1024 ****/
+@media screen and (min-width: 780px) and (max-width: 1023px) {
+
+/** global **/
+
+body {
+	font-size: 20px;
+}
+
+/** masthead **/
+
+/** show-box **/
+
+.show-box {
+	
+}
+
+.comfort-list li {
+}
+
+.design-thumb {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+.design-thumb:last-child {
+	margin: 0 auto;
+}
+
+.design-thumb img {
+	width: 193px;
+	height: 210px;
+	margin: 0 35%;
+}
+
+/** footer **/
+
+.contact-button {
+	clear: both;
+}
+
+}
