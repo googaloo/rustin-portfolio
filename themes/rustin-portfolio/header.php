@@ -34,4 +34,3 @@
 		<div class="masthead-bottom"></div><!-- end .masthead-bottom -->
 
 		<h2 class="masthead-subheader">Digital Ninja</h2>
-			

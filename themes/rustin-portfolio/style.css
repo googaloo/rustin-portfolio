@@ -71,8 +71,7 @@ a {
   display: block;
   margin: 10px 0;
   padding: 0;
-  line-height: 1.33em;
-  font-size: 16px; }
+  line-height: 1.33em; }
 
 .rustin-header {
   text-indent: -9999px;
@@ -125,6 +124,7 @@ a {
   width: 100%;
   height: 187px;
   background: url("images/rustin-ninja.png") no-repeat center;
+  background-size: 129px 187px;
   position: relative;
   top: -20px; }
 
@@ -149,6 +149,9 @@ a {
   width: 137px;
   height: 152px; }
 
+.design-thumb:last-child {
+  margin: 0 auto; }
+
 .design-thumb img {
   width: 137px;
   height: 152px; }
@@ -157,6 +160,9 @@ a {
   margin: 0 5px 16px 5px;
   color: #8a8a8a;
   text-align: center; }
+
+.design-box {
+  width: 100%; }
 
 .dev-box {
   padding-top: 40px;
@@ -201,7 +207,6 @@ a {
   width: 100%; }
 
 .contact-button {
-  width: 120px;
   height: 30px;
   margin: 60px auto 30px auto;
   background: #bd2026;
@@ -241,6 +246,9 @@ a {
 
   /** masthead **/
   /** show-box **/
+  .show-box {
+    float: left; }
+
   .design-thumb {
     float: left;
     width: 50%;
@@ -254,6 +262,48 @@ a {
     height: 210px;
     margin: 0 35%; }
 
+  .dev-box {
+    width: 80%;
+    padding-top: 0; }
+
+  .dev-container {
+    float: left;
+    width: 40%;
+    margin-top: 30px; }
+
+  .dev-container:nth-child(odd) {
+    float: left; }
+
+  .dev-container:nth-child(odd) {
+    float: right; }
+
   /** footer **/
   .contact-button {
-    clear: both; } }
+    clear: both;
+    height: 50px; }
+
+  .contact-button h4 {
+    line-height: 50px; }
+
+  /** Homepage **/
+  .show-box-home {
+    height: 230px; }
+
+  .design-circle, .dev-circle {
+    width: 200px;
+    height: 200px; }
+
+  .design-circle p, .dev-circle p {
+    font-size: 1.2em;
+    height: 200px;
+    line-height: 200px; }
+
+  .design-circle {
+    margin-left: 75px; }
+
+  .dev-circle {
+    margin-right: 75px; }
+
+  .ninja-box {
+    height: 299px;
+    background-size: 206px 299px; } }

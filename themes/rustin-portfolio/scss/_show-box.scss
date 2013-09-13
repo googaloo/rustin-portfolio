@@ -50,6 +50,7 @@
 	width: 100%;
 	height: 187px;	
 	background: url("images/rustin-ninja.png") no-repeat center;
+	background-size: 129px 187px;
 	position: relative;
 	// left: 115px;
 	top: -20px;
@@ -79,6 +80,10 @@
 	height: 152px;
 }
 
+.design-thumb:last-child {
+	margin: 0 auto;
+}
+
 .design-thumb img {
 	width: 137px;
 	height: 152px;
@@ -91,7 +96,7 @@
 }
 
 .design-box {
-
+	width: 100%;
 }
 
 .dev-box {

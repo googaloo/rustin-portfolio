@@ -1,43 +1,97 @@
 /**** MEDIA 600-1024 ****/
 @media screen and (min-width: 780px) and (max-width: 1023px) {
 
-/** global **/
+	/** global **/
 
-body {
-	font-size: 20px;
-}
+	body {
+		font-size: 20px;
+	}
 
-/** masthead **/
+	/** masthead **/
 
-/** show-box **/
+	/** show-box **/
 
-.show-box {
-	
-}
+	.show-box {
+		float: left;
+	}
 
-.comfort-list li {
-}
+	.comfort-list li {
+	}
 
-.design-thumb {
-	float: left;
-	width: 50%;
-	height: auto;
-}
+	.design-thumb {
+		float: left;
+		width: 50%;
+		height: auto;
+	}
 
-.design-thumb:last-child {
-	margin: 0 auto;
-}
+	.design-thumb:last-child {
+		margin: 0 auto;
+	}
 
-.design-thumb img {
-	width: 193px;
-	height: 210px;
-	margin: 0 35%;
-}
+	.design-thumb img {
+		width: 193px;
+		height: 210px;
+		margin: 0 35%;
+	}
 
-/** footer **/
+	.dev-box {
+        width:80%;
+        padding-top: 0;
+	}
 
-.contact-button {
-	clear: both;
-}
+	.dev-container {
+  		float: left;
+    	width: 40%;
+    	margin-top: 30px;
+    }
+
+    .dev-container:nth-child(odd) {
+    	float: left;
+    }
+    
+    .dev-container:nth-child(odd) {
+        float: right;        
+    }
+
+	/** footer **/
+
+	.contact-button {
+		clear: both;
+		height: 50px;
+	}
+
+	.contact-button h4 {
+		line-height: 50px;
+	}
+
+	/** Homepage **/
+
+	.show-box-home {
+		height: 230px;
+	}
+
+	.design-circle, .dev-circle {
+		width: 200px;
+		height: 200px;
+	}
+
+	.design-circle p, .dev-circle p {
+		font-size: 1.2em;
+		height: 200px;
+		line-height: 200px;
+	}
+
+	.design-circle {
+		margin-left: 75px;
+	}
+
+	.dev-circle {
+		margin-right: 75px;
+	}
+
+	.ninja-box {
+		height: 299px;
+		background-size: 206px 299px;
+	}
 
 }

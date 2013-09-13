@@ -48,9 +48,11 @@ get_header();
 		if($development_query->have_posts() ) :
 			while ($development_query->have_posts() ) : $development_query->the_post(); ?>
 
-				<div class="mobile-development-thumb"><?php the_post_thumbnail("mobile-development-thumbnail"); ?></div><!-- end .mobile-development-thumb -->
-				<h2 class="dev-subheader"><?php the_title(); ?></h2>
-				<div class="dev-content"><?php the_content(); ?></div><!-- end .dev-content -->
+				<div class="dev-container">
+					<div class="mobile-development-thumb"><?php the_post_thumbnail("mobile-development-thumbnail"); ?></div><!-- end .mobile-development-thumb -->
+					<h2 class="dev-subheader"><?php the_title(); ?></h2>
+					<div class="dev-content"><?php the_content(); ?></div><!-- end .dev-content -->
+				</div> <!-- end .dev-box -->
 
 			<?php endwhile; ?>
 		<?php endif; ?>
