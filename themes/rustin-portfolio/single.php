@@ -6,15 +6,21 @@ get_header();
 
 <a href="<?php bloginfo('url'); ?>/design"><div class="back-btn">&larr; Back</div><!-- end .back-btn --></a>
 
-<div class="show-box-home">
+<div class="show-box">
 
-	<h3><?php the_title(); ?></h3>
+	<?php if ( have_posts() ) : ?>
+		<?php while ( have_posts() ) : the_post(); ?>
 
-	<div class="content-box">
+			<h3><?php the_title(); ?></h3>
 
-		<?php the_content(); ?>
+			<div class="single-content-box">
 
-	</div><!-- end .content-box -->
+				<?php the_content(); ?>
+
+			</div><!-- end .content-box -->
+
+		<?php endwhile; ?>
+	<?php endif; ?>
 	
 </div><!-- end .show-box -->
 

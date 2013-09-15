@@ -177,6 +177,10 @@ a {
 .dev-port-type {
   font-size: 0.75em; }
 
+.dev-thumb img {
+  width: 100%;
+  height: 100%; }
+
 .dev-content {
   padding-bottom: 35px; }
 
@@ -205,6 +209,19 @@ a {
   background: #212121;
   padding: 5px 0;
   width: 100%; }
+
+.single-content-box {
+  width: 350px;
+  margin: 0 auto; }
+
+.single-content-box a {
+  padding: 0;
+  margin: 0; }
+
+.single-content-box img {
+  margin-top: 35px;
+  width: 100%;
+  height: 100%; }
 
 .contact-button {
   height: 30px;
@@ -265,17 +282,6 @@ a {
   .dev-box {
     width: 80%;
     padding-top: 0; }
-
-  .dev-container {
-    float: left;
-    width: 40%;
-    margin-top: 30px; }
-
-  .dev-container:nth-child(odd) {
-    float: left; }
-
-  .dev-container:nth-child(odd) {
-    float: right; }
 
   /** footer **/
   .contact-button {

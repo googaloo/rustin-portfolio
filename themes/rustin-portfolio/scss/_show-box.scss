@@ -115,6 +115,11 @@
 	font-size: 0.75em;
 }
 
+.dev-thumb img {
+	width: 100%;
+	height: 100%;
+}
+
 .dev-content {
 	padding-bottom: 35px;
 }
@@ -148,4 +153,20 @@
 	background: $darkerDarkGray;
 	padding: 5px 0;
 	width: 100%;
+}
+
+.single-content-box {
+	width: 350px;
+	margin: 0 auto;
+}
+
+.single-content-box a {
+	padding: 0;
+	margin: 0;
+}
+
+.single-content-box img {
+	margin-top: 35px;
+	width: 100%;
+	height: 100%;
 }
