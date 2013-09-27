@@ -1,0 +1,98 @@
+/**** MEDIA 600-1024 ****/
+@media screen and (min-width: 1023px) {
+
+/** global **/
+
+	body {
+		font-size: 16px;
+	}
+
+/** mastehead **/
+
+	.masthead-top {
+		background: url("images/masthead-top.png");
+		height: 37px;
+	}
+
+	.masthead-name {
+		background: url("images/masthead-name.png") no-repeat;
+		width: 1024px;
+		height: 32px;
+		margin: 0 auto;
+	}
+
+	.masthead-bottom {
+		background: url("images/masthead-bottom.png");
+		height: 8px;
+	}
+
+	.masthead-subheader {
+		text-align: left;
+		width: 1024px;
+		margin: 0 auto 15px;
+	}
+
+	.opening-text {
+		text-align: left;
+		width: 1024px;
+		margin: 0 auto;
+	}
+
+/** showbox **/
+
+	.show-box-home {
+		height: 437px;
+		margin: 35px 0 0 0;
+	}
+
+	.ninja-box {
+		width: 1024px;
+		height: 437px;
+		margin: 0 auto;
+		background-size: 301px 437px;
+	}
+
+	.circle1 {
+		background: url("images/home-circle1.png");
+		width: 243px;
+		height: 243px;
+		float: left;
+	}
+
+	.circle2 {
+		background: url("images/home-circle2.png");
+		width: 203px;
+		height: 203px;
+		margin: 20px;
+		float: left;
+	}
+
+	.circle3 {
+		background: url("images/home-circle3.png");
+		width: 182px;
+		height: 182px;
+		margin: 10px;
+		float: left;
+	}
+
+	.design-circle, .dev-circle {
+		width: 150px;
+		height: 150px;
+		margin: 0;
+	}
+
+	.design-circle p, .dev-circle p {
+		line-height: 150px;
+		height: 150px;
+		font-size: 1.2em;
+	}
+
+	.design-circle {
+		margin: 16px 0 0 16px;
+	}
+
+	.dev-circle {
+		margin-right: 85px;
+	}
+
+}

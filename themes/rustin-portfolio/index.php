@@ -14,7 +14,7 @@ get_header();
 
 	<div class="ninja-box">
 
-		<a href="<?php bloginfo('url'); ?>/design"><div class="design-circle"><p>Design</p></div><!-- end .design-circle --></a>
+		<a href="<?php bloginfo('url'); ?>/design"><div class="circle1"><div class="circle2"><div class="circle3"><div class="design-circle"><p>Design</p></div><!-- end .design-circle --></div></div></div><!-- end .circles --></a>
 		<a href="<?php bloginfo('url'); ?>/development"><div class="dev-circle"><p>Development</p></div><!-- end .dev-circle --></a>
 
 	</div><!-- end .ninja-box -->

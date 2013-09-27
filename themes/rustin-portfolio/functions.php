@@ -41,4 +41,7 @@ function template_link() {
 }
 add_shortcode('templateLink', 'template_link');
 
+// Remove default <p>'s and </br>'s
+remove_filter( 'the_content', 'wpautop' );
+
 ?>

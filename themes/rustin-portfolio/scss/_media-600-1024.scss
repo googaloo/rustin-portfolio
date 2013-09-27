@@ -5,6 +5,7 @@
 
 	body {
 		font-size: 20px;
+		word-spacing: 0em;
 	}
 
 	/** masthead **/
@@ -36,11 +37,9 @@
         padding-top: 0;
 	}
 
-	// .dev-container {
- //  		float: left;
- //    	width: 40%;
- //    	margin-top: 30px;
- //    }
+	.single-content-box {
+		width: 600px;
+	}
 
 	/** footer **/
 

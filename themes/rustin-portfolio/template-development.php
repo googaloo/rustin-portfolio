@@ -49,7 +49,7 @@ get_header();
 			while ($development_query->have_posts() ) : $development_query->the_post(); ?>
 
 				<div class="dev-container">
-					<div class="dev-thumb"><?php the_post_thumbnail(); ?></div><!-- end .mobile-development-thumb -->
+					<div class="dev-thumb"><?php the_post_thumbnail('full'); ?></div><!-- end .mobile-development-thumb -->
 					<h2 class="dev-subheader"><?php the_title(); ?></h2>
 					<div class="dev-content"><?php the_content(); ?></div><!-- end .dev-content -->
 				</div> <!-- end .dev-box -->
