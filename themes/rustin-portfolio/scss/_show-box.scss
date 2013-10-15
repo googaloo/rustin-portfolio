@@ -51,6 +51,7 @@
 	color: $darkGray;	
 	margin: 0;
 	text-align: center;
+	letter-spacing: .05em;
 }
 
 .ninja-box {
@@ -92,8 +93,8 @@
 }
 
 .design-thumb img {
-	width: 137px;
-	height: 152px;
+	width: 210;
+	height: 210px;
 }
 
 .opening-text {
@@ -206,4 +207,290 @@
   border-radius: 6px;
   color: #bd2026;
   font-size: 1.25em;
+}
+
+.circle1-rotate {
+	animation: circleOneRotate 8s infinite;
+	-webkit-animation: circleOneRotate 8s infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+}
+
+.circle2-rotate {
+	animation: circleTwoRotate 6s infinite;
+	-webkit-animation: circleTwoRotate 6s infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+}
+
+.circle3-rotate {
+	animation: circleOneRotate 2s infinite;
+	-webkit-animation: circleOneRotate 2s infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+}
+
+.circle-box-rotate {
+	animation: circleBoxRotate 2.178s infinite;
+	-webkit-animation: circleBoxRotate 2.178s infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+}
+
+.bracket-move-left {
+	animation: bracketMoveLeft 0.5s 1;
+	-webkit-animation: bracketMoveLeft 0.5s 1;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.bracket-move-right {
+	animation: bracketMoveRight 0.5s 1;
+	-webkit-animation: bracketMoveRight 0.5s 1;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@keyframes circleOneRotate {
+
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(90deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	75% {
+		transform: rotate(270deg)
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+
+}
+
+@-webkit-keyframes circleOneRotate {
+
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	25% {
+		-webkit-transform: rotate(90deg);
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+	}
+	75% {
+		-webkit-transform: rotate(270deg)
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes circleTwoRotate {
+
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(-90deg);
+	}
+	50% {
+		transform: rotate(-180deg);
+	}
+	75% {
+		transform: rotate(-270deg)
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
+
+}
+
+@-webkit-keyframes circleTwoRotate {
+
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	25% {
+		-webkit-transform: rotate(-90deg);
+	}
+	50% {
+		-webkit-transform: rotate(-180deg);
+	}
+	75% {
+		-webkit-transform: rotate(-270deg)
+	}
+	100% {
+		-webkit-transform: rotate(-360deg);
+	}
+
+}
+
+@keyframes circleBoxRotate {
+
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(-90deg);
+	}
+	50% {
+		transform: rotate(-180deg);
+	}
+	75% {
+		transform: rotate(-270deg)
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
+
+}
+
+@-webkit-keyframes circleBoxRotate {
+
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	25% {
+		-webkit-transform: rotate(-90deg);
+	}
+	50% {
+		-webkit-transform: rotate(-180deg);
+	}
+	75% {
+		-webkit-transform: rotate(-270deg)
+	}
+	100% {
+		-webkit-transform: rotate(-360deg);
+	}
+
+}
+
+@keyframes bracketMoveLeft {
+	0% {
+		left: -50px;
+	}
+	100% {
+		left: -100px;
+	}
+}
+
+@-webkit-keyframes bracketMoveLeft {
+	0% {
+		left: -50px;
+	}
+	100% {
+		left: -100px;
+	}
+}
+
+@keyframes bracketMoveRight {
+	0% {
+		left: -50px;
+	}
+	100% {
+		left: -100px;
+	}
+}
+
+@-webkit-keyframes bracketMoveRight {
+	0% {
+		left: 150px;
+	}
+	100% {
+		left: 200px;
+	}
+}
+
+.choose-text {
+	font-family: spaceman;
+	font-size: 4em;
+	color: $darkGray;
+	text-shadow: 0px 0px 4px #5d5d5d;
+    filter: dropshadow(color=#5d5d5d, offx=0, offy=0);
+    margin: -13px 0 0 -30px;
+    float: left;
+    display: none;
+}
+
+// Blinking animation for Design Thumbs
+.design-thumb img {
+	-webkit-mask-image: url("images/design-masks/design-mask01.png");
+	-webkit-mask-repeat: no-repeat;
+}
+.design-thumb img:hover {
+	-webkit-animation: Blinkit 0.5s 1;
+}
+
+@-webkit-keyframes Blinkit {
+
+	0% {
+		-webkit-mask-image: url("images/design-masks/design-mask01.png");
+		-webkit-mask-repeat: no-repeat;
+	}
+	6% {
+		-webkit-mask-image: url("images/design-masks/design-mask02.png");
+		-webkit-mask-repeat: no-repeat;
+	}
+	12% {
+		-webkit-mask-image: url("images/design-masks/design-mask03.png");
+		-webkit-mask-repeat: no-repeat;
+	}
+	18% {
+		-webkit-mask-image: url("images/design-masks/design-mask04.png");
+		-webkit-mask-repeat: no-repeat;
+	}
+	25% {
+		-webkit-mask-image: url("images/design-masks/design-mask05.png");
+		-webkit-mask-repeat: no-repeat;
+	}
+	31% {
+		-webkit-mask-image: url("images/design-masks/design-mask06.png");
+		-webkit-mask-repeat: no-repeat;
+	}
+	37% {
+		-webkit-mask-image: url("images/design-masks/design-mask07.png");
+		-webkit-mask-repeat: no-repeat;
+	}
+	43% {
+		-webkit-mask-image: url("images/design-masks/design-mask08.png");
+		-webkit-mask-repeat: no-repeat;
+	}
+	50% {
+		-webkit-mask-image: url("images/design-masks/design-mask09.png");
+		-webkit-mask-repeat: no-repeat;
+	}
+	62% {
+	  -webkit-mask-image: url("images/design-masks/design-mask07.png");
+	  -webkit-mask-repeat: no-repeat;
+	}
+	68% {
+	  -webkit-mask-image: url("images/design-masks/design-mask06.png");
+	  -webkit-mask-repeat: no-repeat;
+	}
+	75% {
+	  -webkit-mask-image: url("images/design-masks/design-mask05.png");
+	  -webkit-mask-repeat: no-repeat;
+	}
+	81% {
+	  -webkit-mask-image: url("images/design-masks/design-mask04.png");
+	  -webkit-mask-repeat: no-repeat;
+	}
+	87% {
+	  -webkit-mask-image: url("images/design-masks/design-mask03.png");
+	  -webkit-mask-repeat: no-repeat;
+	}
+	93% {
+	  -webkit-mask-image: url("images/design-masks/design-mask02.png");
+	  -webkit-mask-repeat: no-repeat;
+	}
+	100% {
+	  -webkit-mask-image: url("images/design-masks/design-mask01.png");
+	  -webkit-mask-repeat: no-repeat;
+	}
+
 }

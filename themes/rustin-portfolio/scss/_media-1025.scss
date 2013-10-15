@@ -40,9 +40,18 @@
 
 /** showbox **/
 
+	.show-box {
+		float: left;
+	}
+
 	.show-box-home {
 		height: 437px;
 		margin: 35px 0 0 0;
+	}
+
+	.content-container {
+		width: 1024px;
+		margin: 0 auto;
 	}
 
 	.ninja-box {
@@ -57,6 +66,7 @@
 		width: 243px;
 		height: 243px;
 		float: left;
+		margin: 120px 45px;
 	}
 
 	.circle2 {
@@ -84,7 +94,8 @@
 	.design-circle p, .dev-circle p {
 		line-height: 150px;
 		height: 150px;
-		font-size: 1.2em;
+		font-size: 1em;
+		letter-spacing: 0.1em;
 	}
 
 	.design-circle {
@@ -92,7 +103,87 @@
 	}
 
 	.dev-circle {
-		margin-right: 85px;
+		//margin-right: 85px;
+		float: left;
+	}
+
+	.dev-container-box {
+		position: relative;
+		float: right;
+		margin: 160px 100px 0 0;
+	}
+
+	.dev-left-bracket, .dev-right-bracket {
+		width: 46px;
+		height: 130px;
+		float: left;
+		position: absolute;
+		top: 10px;
+	}
+
+	.dev-left-bracket {
+		background: url("images/left-bracket.png");
+		left: -50px;
+	}
+
+	.dev-right-bracket {
+		background: url("images/right-bracket.png");
+		left: 150px;
+	}
+
+	.footer-container {
+		width: 1024px;
+		margin: 0 auto;
+	}
+
+	.contact-button {
+		width: 50px;
+		float: left;
+		margin: 0;
+		clear: both;
+	}
+
+	.contact-button a {
+		background: #bd2026;
+		float: left;
+		padding: 5px;
+	}
+
+	.social-buttons {
+		float: right;
+		display: block;
+	}
+
+	.choose-text {
+		display: block;
+	}
+
+	.port-type {
+		float: right;
+		margin: -35px 0 0 0;
+	}
+
+	.el-comfort-box {
+		float: right;
+		width: auto;
+	}
+
+	.el-comfort-box li {
+		width: auto;
+	}
+
+	.el-comfort-box li:nth-child(odd) {
+		width: auto;
+		padding: 0;
+		background: none;
+	}
+
+	.design-box {
+		width: 800px;
+	}
+
+	.design-thumb {
+		float: left;
 	}
 
 }

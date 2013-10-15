@@ -31,6 +31,7 @@ get_header();
 			<li>Wordpress</li>
 			<li>Joomla</li>
 			<li>CodeIgniter</li>
+			<li>Foundation</li>
 			<li>AWS, S3</li>
 			<li>Sass / Compass</li>
 			<li>Flexbox</li>

@@ -18,3 +18,10 @@ Version: 1.0
 // Responsive
 @import "media-600-1024";
 @import "media-1025";
+
+.myImage {
+    mask: url(#masker);
+    -webkit-mask: url(masker.svg) top left / cover;
+    -o-mask: url(masker.svg) top left / cover;
+    -ms-mask: url(masker.svg) top left / cover;
+}

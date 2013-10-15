@@ -64,9 +64,10 @@
 	}
 
 	.design-circle p, .dev-circle p {
-		font-size: 1.2em;
+		font-size: 1.1em;
 		height: 200px;
 		line-height: 200px;
+		letter-spacing: 0.1em;
 	}
 
 	.design-circle {
@@ -80,6 +81,10 @@
 	.ninja-box {
 		height: 299px;
 		background-size: 206px 299px;
+	}
+
+	.footer-container {
+		margin-top: 25px;
 	}
 
 }

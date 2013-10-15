@@ -16,49 +16,56 @@ get_header();
 
 <p class="opening-text">So many projects, so little time to show them off.</p>
 
-<div class="port-type"><h2>Design</h2></div><!-- end .port-type -->
-
 <div class="show-box">
 
-	<div class="el-comfort-box">
+	<div class="content-container">
 
-		<ul class="comfort-list">
+		<div class="port-type"><h2>Design</h2></div><!-- end .port-type -->
 
-			<li>Photoshop</li>
-			<li>Illustrator</li>
-			<li>After Effects / Flash</li>
-			<li>Logo Design</li>
-			<li>Web Design</li>
-			<li>Motion Graphics</li>
-			<li>Audio w/ Recording Studio</li>
-			<li>Illustration</li>
-			<li>Email Templates</li>
+		<div class="el-comfort-box">
 
-		</ul>
+			<ul class="comfort-list">
 
-	</div><!-- end .el-comfort-box -->
+				<li>Photoshop</li>
+				<li>Illustrator</li>
+				<li>After Effects / Flash</li>
+				<li>Logo Design</li>
+				<li>Web Design</li>
+				<li>Motion Graphics</li>
+				<li>Audio w/ Recording Studio</li>
+				<li>Illustration</li>
+				<li>Email Templates</li>
 
-	<div class="design-box">
+			</ul>
 
-	<?php $design_query = new WP_Query( array( 'post_type' => 'designs', 'orderby' => 'menu_order', 'order' => 'ASC' ) );
+		</div><!-- end .el-comfort-box -->
 
-	if($design_query->have_posts() ) :
-		while ($design_query->have_posts() ) : $design_query->the_post(); ?>
+		<div class="design-box">
 
-			<div class="design-thumb">
+		<?php $design_query = new WP_Query( array( 'post_type' => 'designs', 'orderby' => 'menu_order', 'order' => 'ASC' ) );
 
-				<a href="<?php the_permalink(); ?>">
+		if($design_query->have_posts() ) :
 
-					<?php the_post_thumbnail('full'); ?>
+			while ($design_query->have_posts() ) : $design_query->the_post(); ?>
 
-				</a>
+				<div class="design-thumb">
 
-			</div><!-- end .mobile-design-thumb -->
+					<a href="<?php the_permalink(); ?>">
 
-		<?php endwhile; ?>
-	<?php endif; ?>
+						<?php the_post_thumbnail('full'); ?>
 
-	</div><!-- end .design-box -->
+					</a>
+
+				</div><!-- end .mobile-design-thumb -->
+
+			<?php endwhile; ?>
+		<?php endif; ?>
+
+		</div><!-- end .design-box -->
+
+	</div><!-- end content-container -->
+
+	
 	
 </div><!-- end .show-box -->
 
