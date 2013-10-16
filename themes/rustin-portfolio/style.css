@@ -155,8 +155,8 @@ a {
   margin: 0 auto;
   padding: 12px 0;
   display: relative;
-  width: 137px;
-  height: 152px; }
+  width: 210px;
+  height: 210px; }
 
 .design-thumb:last-child {
   margin: 0 auto; }
@@ -642,7 +642,8 @@ a {
 
   /** showbox **/
   .show-box {
-    float: left; }
+    float: left;
+    margin-bottom: 35px; }
 
   .show-box-home {
     height: 437px;
@@ -693,6 +694,11 @@ a {
   .design-circle {
     margin: 16px 0 0 16px; }
 
+  .dev-box {
+    width: 725px;
+    float: left;
+    padding-top: 20px; }
+
   .dev-circle {
     float: left; }
 
@@ -700,6 +706,9 @@ a {
     position: relative;
     float: right;
     margin: 160px 100px 0 0; }
+
+  .dev-container {
+    margin-bottom: 50px; }
 
   .dev-left-bracket, .dev-right-bracket {
     width: 46px;
@@ -718,12 +727,12 @@ a {
 
   .footer-container {
     width: 1024px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-bottom: 25px; }
 
   .contact-button {
-    width: 50px;
     float: left;
-    margin: 0;
+    margin: 0 0 35px 0;
     clear: both; }
 
   .contact-button a {
@@ -742,6 +751,13 @@ a {
     float: right;
     margin: -35px 0 0 0; }
 
+  .dev-port-type {
+    margin-top: -30px;
+    margin-right: -100px; }
+
+  .dev-subheader {
+    font-size: 1.2em; }
+
   .el-comfort-box {
     float: right;
     width: auto; }
@@ -753,6 +769,9 @@ a {
     width: auto;
     padding: 0;
     background: none; }
+
+  .comfort-list {
+    text-align: left; }
 
   .design-box {
     width: 800px; }
