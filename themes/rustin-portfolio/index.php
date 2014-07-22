@@ -8,8 +8,6 @@ get_header();
 <p class="opening-text">I specialize in both design and development.</p>
 <p class="opening-text">That means after much ninja-esque training, the left and right sides of my brain are finally friends.</p>
 
-
-
 <div class="show-box-home">
 
 	<div class="ninja-box">

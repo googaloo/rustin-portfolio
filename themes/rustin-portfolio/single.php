@@ -8,19 +8,23 @@ get_header();
 
 <div class="show-box">
 
-	<?php if ( have_posts() ) : ?>
-		<?php while ( have_posts() ) : the_post(); ?>
+	<div class="content-container">
 
-			<h3><?php the_title(); ?></h3>
+		<?php if ( have_posts() ) : ?>
+			<?php while ( have_posts() ) : the_post(); ?>
 
-			<div class="single-content-box">
+				<div class="port-type"><h2><?php the_title(); ?></h2></div><!-- end .port-type -->
 
-				<?php the_content(); ?>
+				<div class="single-box-container">
 
-			</div><!-- end .content-box -->
+					<?php the_content(); ?>
 
-		<?php endwhile; ?>
-	<?php endif; ?>
+				</div><!-- end .content-box -->
+
+			<?php endwhile; ?>
+		<?php endif; ?>
+
+	</div><!-- end .content-container -->
 	
 </div><!-- end .show-box -->
 

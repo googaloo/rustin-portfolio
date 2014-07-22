@@ -149,7 +149,7 @@ a {
   padding: 0;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #5d5d5d;
-  font-size: 2em; }
+  font-size: 1.5em; }
 
 .design-thumb {
   margin: 0 auto;
@@ -219,6 +219,11 @@ a {
   padding: 5px 0;
   width: 100%; }
 
+.single-box {
+  width: 300px;
+  height: 174px;
+  margin: 55px auto 0; }
+
 .single-content-box {
   width: 350px;
   margin: 0 auto; }
@@ -241,7 +246,9 @@ a {
   font-size: 0.85em;
   margin: 25px 0 0 0;
   font-family: spaceman;
-  color: #bd2026; }
+  color: #bd2026;
+  padding-top: 20px;
+  float: left; }
 
 .web-design-h4:first-child {
   margin: 0; }
@@ -544,7 +551,7 @@ a {
   font-family: spaceman; }
 
 /**** MEDIA 600-1024 ****/
-@media screen and (min-width: 780px) and (max-width: 1023px) {
+@media handheld, screen and (min-width: 780px) and (max-width: 1023px) {
   /** global **/
   body {
     font-size: 20px;
@@ -553,7 +560,8 @@ a {
   /** masthead **/
   /** show-box **/
   .show-box {
-    float: left; }
+    float: left;
+    padding-bottom: 75px; }
 
   .design-thumb {
     float: left;
@@ -564,7 +572,6 @@ a {
     margin: 0 auto; }
 
   .design-thumb img {
-    width: 193px;
     height: 210px;
     margin: 0 35%; }
 
@@ -574,6 +581,9 @@ a {
 
   .single-content-box {
     width: 600px; }
+
+  .single-box {
+    height: 200px; }
 
   /** footer **/
   .contact-button {
@@ -610,7 +620,7 @@ a {
   .footer-container {
     margin-top: 25px; } }
 /**** MEDIA 600-1024 ****/
-@media screen and (min-width: 1023px) {
+@media handheld, screen and (min-width: 1023px) {
   /** global **/
   body {
     font-size: 16px; }
@@ -644,6 +654,10 @@ a {
   .show-box {
     float: left;
     margin-bottom: 35px; }
+
+  .show-box h3 {
+    font-size: 2em;
+    padding: 10px 10px 10px 20px; }
 
   .show-box-home {
     height: 437px;
@@ -777,6 +791,26 @@ a {
     width: 800px; }
 
   .design-thumb {
+    float: left; }
+
+  .back-btn {
+    display: none; }
+
+  .single-box {
+    float: left;
+    width: 320px;
+    margin-left: 20px;
+    margin-bottom: 20px; }
+
+  .single-box:first-child {
+    margin-left: 0; }
+
+  .single-box:nth-child(4), .single-box:nth-child(7), .single-box:nth-child(10), .single-box:nth-child(13), .single-box:nth-child(16), .single-box:nth-child(19) {
+    margin-left: 0; }
+
+  .single-box-container {
+    width: 1024px;
+    margin: 35px 0;
     float: left; } }
 .myImage {
   mask: url(#masker);

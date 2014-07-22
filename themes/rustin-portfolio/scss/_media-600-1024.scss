@@ -1,5 +1,5 @@
 /**** MEDIA 600-1024 ****/
-@media screen and (min-width: 780px) and (max-width: 1023px) {
+@media handheld, screen and (min-width: 780px) and (max-width: 1023px) {
 
 	/** global **/
 
@@ -14,6 +14,7 @@
 
 	.show-box {
 		float: left;
+		padding-bottom: 75px;
 	}
 
 	.design-thumb {
@@ -27,7 +28,7 @@
 	}
 
 	.design-thumb img {
-		width: 193px;
+
 		height: 210px;
 		margin: 0 35%;
 	}
@@ -40,6 +41,14 @@
 	.single-content-box {
 		width: 600px;
 	}
+
+	.single-box {
+		height: 200px;
+	}
+
+	// .single-box:first-child {
+	// 	margin: 15px auto 0;
+	// }
 
 	/** footer **/
 

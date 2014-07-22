@@ -1,5 +1,5 @@
 /**** MEDIA 600-1024 ****/
-@media screen and (min-width: 1023px) {
+@media handheld, screen and (min-width: 1023px) {
 
 /** global **/
 
@@ -43,6 +43,11 @@
 	.show-box {
 		float: left;
 		margin-bottom: 35px;
+	}
+
+	.show-box h3 {
+		font-size: 2em;
+		padding: 10px 10px 10px 20px;
 	}
 
 	.show-box-home {
@@ -207,6 +212,31 @@
 	}
 
 	.design-thumb {
+		float: left;
+	}
+
+	.back-btn {
+		display: none;
+	}
+
+	.single-box {
+		float: left;
+		width: 320px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+
+	.single-box:first-child {
+		margin-left: 0;
+	}
+
+	.single-box:nth-child(4), .single-box:nth-child(7), .single-box:nth-child(10), .single-box:nth-child(13), .single-box:nth-child(16), .single-box:nth-child(19) {
+		margin-left: 0;	
+	}
+
+	.single-box-container {
+		width: 1024px;
+		margin: 35px 0;
 		float: left;
 	}
 

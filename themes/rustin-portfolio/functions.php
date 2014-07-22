@@ -33,6 +33,7 @@ function start_scripts() {
 
 add_theme_support( 'post-thumbnails' );
 add_image_size('mobile-development-thumbnail', 286, 166, true);
+add_image_size('design-thumb', 300, 174, true);
 
 
 // Adding shortcode to add relative link to posts

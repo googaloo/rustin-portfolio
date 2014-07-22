@@ -27,13 +27,16 @@ get_header();
 			<ul class="comfort-list">
 
 				<li>jQuery / jQuery mobile</li>
-				<li>Mobile Responsive</li>
+				<li>Mobile Responsiveness</li>
+				<li>Flash</li>
 				<li>Jekyll</li>
 				<li>Bootstrap / Foundation</li>
 				<li>Wordpress</li>
 				<li>Joomla</li>
 				<li>CodeIgniter</li>
+				<li>jQuery DataTables</li>
 				<li>Foundation</li>
+				<li>Responsys</li>
 				<li>AWS, S3</li>
 				<li>Sass / Compass</li>
 				<li>Flexbox</li>
